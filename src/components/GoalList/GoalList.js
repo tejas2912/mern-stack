@@ -1,16 +1,15 @@
 import React from "react";
 import "./GoalList.css"
-const GoalList = () => {
+const GoalList = props => {
+    console.log(props.subject);
 
 
     return (
         <div>
 
             <ul className="list">
-                <li>REACT</li>
-                <li>NODE</li>
-                <li>MONGO</li>
-                <li>ANGULAR</li>
+                
+                
             </ul>
         </div>);
 
